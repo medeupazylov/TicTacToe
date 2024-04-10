@@ -1,0 +1,108 @@
+{
+  "" : {
+    "diagnostics" : "/Users/medeupazylov/Desktop/KrestikiNoliki/build/KrestikiNoliki.build/Debug-iphonesimulator/KrestikiNoliki.build/Objects-normal/arm64/KrestikiNoliki-master.dia",
+    "emit-module-dependencies" : "/Users/medeupazylov/Desktop/KrestikiNoliki/build/KrestikiNoliki.build/Debug-iphonesimulator/KrestikiNoliki.build/Objects-normal/arm64/KrestikiNoliki-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/medeupazylov/Desktop/KrestikiNoliki/build/KrestikiNoliki.build/Debug-iphonesimulator/KrestikiNoliki.build/Objects-normal/arm64/KrestikiNoliki-master-emit-module.dia",
+    "swift-dependencies" : "/Users/medeupazylov/Desktop/KrestikiNoliki/build/KrestikiNoliki.build/Debug-iphonesimulator/KrestikiNoliki.build/Objects-normal/arm64/KrestikiNoliki-master.swiftdeps"
+  },
+  "/Users/medeupazylov/Desktop/KrestikiNoliki/build/KrestikiNoliki.build/Debug-iphonesimulator/KrestikiNoliki.build/DerivedSources/GeneratedAssetSymbols.swift" : {
+    "const-values" : "/Users/medeupazylov/Desktop/KrestikiNoliki/build/KrestikiNoliki.build/Debug-iphonesimulator/KrestikiNoliki.build/Objects-normal/arm64/GeneratedAssetSymbols.swiftconstvalues",
+    "dependencies" : "/Users/medeupazylov/Desktop/KrestikiNoliki/build/KrestikiNoliki.build/Debug-iphonesimulator/KrestikiNoliki.build/Objects-normal/arm64/GeneratedAssetSymbols.d",
+    "diagnostics" : "/Users/medeupazylov/Desktop/KrestikiNoliki/build/KrestikiNoliki.build/Debug-iphonesimulator/KrestikiNoliki.build/Objects-normal/arm64/GeneratedAssetSymbols.dia",
+    "index-unit-output-path" : "/KrestikiNoliki.build/Debug-iphonesimulator/KrestikiNoliki.build/Objects-normal/arm64/GeneratedAssetSymbols.o",
+    "llvm-bc" : "/Users/medeupazylov/Desktop/KrestikiNoliki/build/KrestikiNoliki.build/Debug-iphonesimulator/KrestikiNoliki.build/Objects-normal/arm64/GeneratedAssetSymbols.bc",
+    "object" : "/Users/medeupazylov/Desktop/KrestikiNoliki/build/KrestikiNoliki.build/Debug-iphonesimulator/KrestikiNoliki.build/Objects-normal/arm64/GeneratedAssetSymbols.o",
+    "swift-dependencies" : "/Users/medeupazylov/Desktop/KrestikiNoliki/build/KrestikiNoliki.build/Debug-iphonesimulator/KrestikiNoliki.build/Objects-normal/arm64/GeneratedAssetSymbols.swiftdeps",
+    "swiftmodule" : "/Users/medeupazylov/Desktop/KrestikiNoliki/build/KrestikiNoliki.build/Debug-iphonesimulator/KrestikiNoliki.build/Objects-normal/arm64/GeneratedAssetSymbols~partial.swiftmodule"
+  },
+  "/Users/medeupazylov/Desktop/KrestikiNoliki/KrestikiNoliki/App/AppDelegate.swift" : {
+    "const-values" : "/Users/medeupazylov/Desktop/KrestikiNoliki/build/KrestikiNoliki.build/Debug-iphonesimulator/KrestikiNoliki.build/Objects-normal/arm64/AppDelegate.swiftconstvalues",
+    "dependencies" : "/Users/medeupazylov/Desktop/KrestikiNoliki/build/KrestikiNoliki.build/Debug-iphonesimulator/KrestikiNoliki.build/Objects-normal/arm64/AppDelegate.d",
+    "diagnostics" : "/Users/medeupazylov/Desktop/KrestikiNoliki/build/KrestikiNoliki.build/Debug-iphonesimulator/KrestikiNoliki.build/Objects-normal/arm64/AppDelegate.dia",
+    "index-unit-output-path" : "/KrestikiNoliki.build/Debug-iphonesimulator/KrestikiNoliki.build/Objects-normal/arm64/AppDelegate.o",
+    "llvm-bc" : "/Users/medeupazylov/Desktop/KrestikiNoliki/build/KrestikiNoliki.build/Debug-iphonesimulator/KrestikiNoliki.build/Objects-normal/arm64/AppDelegate.bc",
+    "object" : "/Users/medeupazylov/Desktop/KrestikiNoliki/build/KrestikiNoliki.build/Debug-iphonesimulator/KrestikiNoliki.build/Objects-normal/arm64/AppDelegate.o",
+    "swift-dependencies" : "/Users/medeupazylov/Desktop/KrestikiNoliki/build/KrestikiNoliki.build/Debug-iphonesimulator/KrestikiNoliki.build/Objects-normal/arm64/AppDelegate.swiftdeps",
+    "swiftmodule" : "/Users/medeupazylov/Desktop/KrestikiNoliki/build/KrestikiNoliki.build/Debug-iphonesimulator/KrestikiNoliki.build/Objects-normal/arm64/AppDelegate~partial.swiftmodule"
+  },
+  "/Users/medeupazylov/Desktop/KrestikiNoliki/KrestikiNoliki/App/SceneDelegate.swift" : {
+    "const-values" : "/Users/medeupazylov/Desktop/KrestikiNoliki/build/KrestikiNoliki.build/Debug-iphonesimulator/KrestikiNoliki.build/Objects-normal/arm64/SceneDelegate.swiftconstvalues",
+    "dependencies" : "/Users/medeupazylov/Desktop/KrestikiNoliki/build/KrestikiNoliki.build/Debug-iphonesimulator/KrestikiNoliki.build/Objects-normal/arm64/SceneDelegate.d",
+    "diagnostics" : "/Users/medeupazylov/Desktop/KrestikiNoliki/build/KrestikiNoliki.build/Debug-iphonesimulator/KrestikiNoliki.build/Objects-normal/arm64/SceneDelegate.dia",
+    "index-unit-output-path" : "/KrestikiNoliki.build/Debug-iphonesimulator/KrestikiNoliki.build/Objects-normal/arm64/SceneDelegate.o",
+    "llvm-bc" : "/Users/medeupazylov/Desktop/KrestikiNoliki/build/KrestikiNoliki.build/Debug-iphonesimulator/KrestikiNoliki.build/Objects-normal/arm64/SceneDelegate.bc",
+    "object" : "/Users/medeupazylov/Desktop/KrestikiNoliki/build/KrestikiNoliki.build/Debug-iphonesimulator/KrestikiNoliki.build/Objects-normal/arm64/SceneDelegate.o",
+    "swift-dependencies" : "/Users/medeupazylov/Desktop/KrestikiNoliki/build/KrestikiNoliki.build/Debug-iphonesimulator/KrestikiNoliki.build/Objects-normal/arm64/SceneDelegate.swiftdeps",
+    "swiftmodule" : "/Users/medeupazylov/Desktop/KrestikiNoliki/build/KrestikiNoliki.build/Debug-iphonesimulator/KrestikiNoliki.build/Objects-normal/arm64/SceneDelegate~partial.swiftmodule"
+  },
+  "/Users/medeupazylov/Desktop/KrestikiNoliki/KrestikiNoliki/Constants/Color.swift" : {
+    "const-values" : "/Users/medeupazylov/Desktop/KrestikiNoliki/build/KrestikiNoliki.build/Debug-iphonesimulator/KrestikiNoliki.build/Objects-normal/arm64/Color.swiftconstvalues",
+    "dependencies" : "/Users/medeupazylov/Desktop/KrestikiNoliki/build/KrestikiNoliki.build/Debug-iphonesimulator/KrestikiNoliki.build/Objects-normal/arm64/Color.d",
+    "diagnostics" : "/Users/medeupazylov/Desktop/KrestikiNoliki/build/KrestikiNoliki.build/Debug-iphonesimulator/KrestikiNoliki.build/Objects-normal/arm64/Color.dia",
+    "index-unit-output-path" : "/KrestikiNoliki.build/Debug-iphonesimulator/KrestikiNoliki.build/Objects-normal/arm64/Color.o",
+    "llvm-bc" : "/Users/medeupazylov/Desktop/KrestikiNoliki/build/KrestikiNoliki.build/Debug-iphonesimulator/KrestikiNoliki.build/Objects-normal/arm64/Color.bc",
+    "object" : "/Users/medeupazylov/Desktop/KrestikiNoliki/build/KrestikiNoliki.build/Debug-iphonesimulator/KrestikiNoliki.build/Objects-normal/arm64/Color.o",
+    "swift-dependencies" : "/Users/medeupazylov/Desktop/KrestikiNoliki/build/KrestikiNoliki.build/Debug-iphonesimulator/KrestikiNoliki.build/Objects-normal/arm64/Color.swiftdeps",
+    "swiftmodule" : "/Users/medeupazylov/Desktop/KrestikiNoliki/build/KrestikiNoliki.build/Debug-iphonesimulator/KrestikiNoliki.build/Objects-normal/arm64/Color~partial.swiftmodule"
+  },
+  "/Users/medeupazylov/Desktop/KrestikiNoliki/KrestikiNoliki/GameView/GameModel.swift" : {
+    "const-values" : "/Users/medeupazylov/Desktop/KrestikiNoliki/build/KrestikiNoliki.build/Debug-iphonesimulator/KrestikiNoliki.build/Objects-normal/arm64/GameModel.swiftconstvalues",
+    "dependencies" : "/Users/medeupazylov/Desktop/KrestikiNoliki/build/KrestikiNoliki.build/Debug-iphonesimulator/KrestikiNoliki.build/Objects-normal/arm64/GameModel.d",
+    "diagnostics" : "/Users/medeupazylov/Desktop/KrestikiNoliki/build/KrestikiNoliki.build/Debug-iphonesimulator/KrestikiNoliki.build/Objects-normal/arm64/GameModel.dia",
+    "index-unit-output-path" : "/KrestikiNoliki.build/Debug-iphonesimulator/KrestikiNoliki.build/Objects-normal/arm64/GameModel.o",
+    "llvm-bc" : "/Users/medeupazylov/Desktop/KrestikiNoliki/build/KrestikiNoliki.build/Debug-iphonesimulator/KrestikiNoliki.build/Objects-normal/arm64/GameModel.bc",
+    "object" : "/Users/medeupazylov/Desktop/KrestikiNoliki/build/KrestikiNoliki.build/Debug-iphonesimulator/KrestikiNoliki.build/Objects-normal/arm64/GameModel.o",
+    "swift-dependencies" : "/Users/medeupazylov/Desktop/KrestikiNoliki/build/KrestikiNoliki.build/Debug-iphonesimulator/KrestikiNoliki.build/Objects-normal/arm64/GameModel.swiftdeps",
+    "swiftmodule" : "/Users/medeupazylov/Desktop/KrestikiNoliki/build/KrestikiNoliki.build/Debug-iphonesimulator/KrestikiNoliki.build/Objects-normal/arm64/GameModel~partial.swiftmodule"
+  },
+  "/Users/medeupazylov/Desktop/KrestikiNoliki/KrestikiNoliki/GameView/GamePresenter.swift" : {
+    "const-values" : "/Users/medeupazylov/Desktop/KrestikiNoliki/build/KrestikiNoliki.build/Debug-iphonesimulator/KrestikiNoliki.build/Objects-normal/arm64/GamePresenter.swiftconstvalues",
+    "dependencies" : "/Users/medeupazylov/Desktop/KrestikiNoliki/build/KrestikiNoliki.build/Debug-iphonesimulator/KrestikiNoliki.build/Objects-normal/arm64/GamePresenter.d",
+    "diagnostics" : "/Users/medeupazylov/Desktop/KrestikiNoliki/build/KrestikiNoliki.build/Debug-iphonesimulator/KrestikiNoliki.build/Objects-normal/arm64/GamePresenter.dia",
+    "index-unit-output-path" : "/KrestikiNoliki.build/Debug-iphonesimulator/KrestikiNoliki.build/Objects-normal/arm64/GamePresenter.o",
+    "llvm-bc" : "/Users/medeupazylov/Desktop/KrestikiNoliki/build/KrestikiNoliki.build/Debug-iphonesimulator/KrestikiNoliki.build/Objects-normal/arm64/GamePresenter.bc",
+    "object" : "/Users/medeupazylov/Desktop/KrestikiNoliki/build/KrestikiNoliki.build/Debug-iphonesimulator/KrestikiNoliki.build/Objects-normal/arm64/GamePresenter.o",
+    "swift-dependencies" : "/Users/medeupazylov/Desktop/KrestikiNoliki/build/KrestikiNoliki.build/Debug-iphonesimulator/KrestikiNoliki.build/Objects-normal/arm64/GamePresenter.swiftdeps",
+    "swiftmodule" : "/Users/medeupazylov/Desktop/KrestikiNoliki/build/KrestikiNoliki.build/Debug-iphonesimulator/KrestikiNoliki.build/Objects-normal/arm64/GamePresenter~partial.swiftmodule"
+  },
+  "/Users/medeupazylov/Desktop/KrestikiNoliki/KrestikiNoliki/GameView/GameViewController.swift" : {
+    "const-values" : "/Users/medeupazylov/Desktop/KrestikiNoliki/build/KrestikiNoliki.build/Debug-iphonesimulator/KrestikiNoliki.build/Objects-normal/arm64/GameViewController.swiftconstvalues",
+    "dependencies" : "/Users/medeupazylov/Desktop/KrestikiNoliki/build/KrestikiNoliki.build/Debug-iphonesimulator/KrestikiNoliki.build/Objects-normal/arm64/GameViewController.d",
+    "diagnostics" : "/Users/medeupazylov/Desktop/KrestikiNoliki/build/KrestikiNoliki.build/Debug-iphonesimulator/KrestikiNoliki.build/Objects-normal/arm64/GameViewController.dia",
+    "index-unit-output-path" : "/KrestikiNoliki.build/Debug-iphonesimulator/KrestikiNoliki.build/Objects-normal/arm64/GameViewController.o",
+    "llvm-bc" : "/Users/medeupazylov/Desktop/KrestikiNoliki/build/KrestikiNoliki.build/Debug-iphonesimulator/KrestikiNoliki.build/Objects-normal/arm64/GameViewController.bc",
+    "object" : "/Users/medeupazylov/Desktop/KrestikiNoliki/build/KrestikiNoliki.build/Debug-iphonesimulator/KrestikiNoliki.build/Objects-normal/arm64/GameViewController.o",
+    "swift-dependencies" : "/Users/medeupazylov/Desktop/KrestikiNoliki/build/KrestikiNoliki.build/Debug-iphonesimulator/KrestikiNoliki.build/Objects-normal/arm64/GameViewController.swiftdeps",
+    "swiftmodule" : "/Users/medeupazylov/Desktop/KrestikiNoliki/build/KrestikiNoliki.build/Debug-iphonesimulator/KrestikiNoliki.build/Objects-normal/arm64/GameViewController~partial.swiftmodule"
+  },
+  "/Users/medeupazylov/Desktop/KrestikiNoliki/KrestikiNoliki/MainMenu/MainMenuViewController.swift" : {
+    "const-values" : "/Users/medeupazylov/Desktop/KrestikiNoliki/build/KrestikiNoliki.build/Debug-iphonesimulator/KrestikiNoliki.build/Objects-normal/arm64/MainMenuViewController.swiftconstvalues",
+    "dependencies" : "/Users/medeupazylov/Desktop/KrestikiNoliki/build/KrestikiNoliki.build/Debug-iphonesimulator/KrestikiNoliki.build/Objects-normal/arm64/MainMenuViewController.d",
+    "diagnostics" : "/Users/medeupazylov/Desktop/KrestikiNoliki/build/KrestikiNoliki.build/Debug-iphonesimulator/KrestikiNoliki.build/Objects-normal/arm64/MainMenuViewController.dia",
+    "index-unit-output-path" : "/KrestikiNoliki.build/Debug-iphonesimulator/KrestikiNoliki.build/Objects-normal/arm64/MainMenuViewController.o",
+    "llvm-bc" : "/Users/medeupazylov/Desktop/KrestikiNoliki/build/KrestikiNoliki.build/Debug-iphonesimulator/KrestikiNoliki.build/Objects-normal/arm64/MainMenuViewController.bc",
+    "object" : "/Users/medeupazylov/Desktop/KrestikiNoliki/build/KrestikiNoliki.build/Debug-iphonesimulator/KrestikiNoliki.build/Objects-normal/arm64/MainMenuViewController.o",
+    "swift-dependencies" : "/Users/medeupazylov/Desktop/KrestikiNoliki/build/KrestikiNoliki.build/Debug-iphonesimulator/KrestikiNoliki.build/Objects-normal/arm64/MainMenuViewController.swiftdeps",
+    "swiftmodule" : "/Users/medeupazylov/Desktop/KrestikiNoliki/build/KrestikiNoliki.build/Debug-iphonesimulator/KrestikiNoliki.build/Objects-normal/arm64/MainMenuViewController~partial.swiftmodule"
+  },
+  "/Users/medeupazylov/Desktop/KrestikiNoliki/KrestikiNoliki/UIComponents/GameCollectionViewCell.swift" : {
+    "const-values" : "/Users/medeupazylov/Desktop/KrestikiNoliki/build/KrestikiNoliki.build/Debug-iphonesimulator/KrestikiNoliki.build/Objects-normal/arm64/GameCollectionViewCell.swiftconstvalues",
+    "dependencies" : "/Users/medeupazylov/Desktop/KrestikiNoliki/build/KrestikiNoliki.build/Debug-iphonesimulator/KrestikiNoliki.build/Objects-normal/arm64/GameCollectionViewCell.d",
+    "diagnostics" : "/Users/medeupazylov/Desktop/KrestikiNoliki/build/KrestikiNoliki.build/Debug-iphonesimulator/KrestikiNoliki.build/Objects-normal/arm64/GameCollectionViewCell.dia",
+    "index-unit-output-path" : "/KrestikiNoliki.build/Debug-iphonesimulator/KrestikiNoliki.build/Objects-normal/arm64/GameCollectionViewCell.o",
+    "llvm-bc" : "/Users/medeupazylov/Desktop/KrestikiNoliki/build/KrestikiNoliki.build/Debug-iphonesimulator/KrestikiNoliki.build/Objects-normal/arm64/GameCollectionViewCell.bc",
+    "object" : "/Users/medeupazylov/Desktop/KrestikiNoliki/build/KrestikiNoliki.build/Debug-iphonesimulator/KrestikiNoliki.build/Objects-normal/arm64/GameCollectionViewCell.o",
+    "swift-dependencies" : "/Users/medeupazylov/Desktop/KrestikiNoliki/build/KrestikiNoliki.build/Debug-iphonesimulator/KrestikiNoliki.build/Objects-normal/arm64/GameCollectionViewCell.swiftdeps",
+    "swiftmodule" : "/Users/medeupazylov/Desktop/KrestikiNoliki/build/KrestikiNoliki.build/Debug-iphonesimulator/KrestikiNoliki.build/Objects-normal/arm64/GameCollectionViewCell~partial.swiftmodule"
+  },
+  "/Users/medeupazylov/Desktop/KrestikiNoliki/KrestikiNoliki/UIComponents/PlayerCard.swift" : {
+    "const-values" : "/Users/medeupazylov/Desktop/KrestikiNoliki/build/KrestikiNoliki.build/Debug-iphonesimulator/KrestikiNoliki.build/Objects-normal/arm64/PlayerCard.swiftconstvalues",
+    "dependencies" : "/Users/medeupazylov/Desktop/KrestikiNoliki/build/KrestikiNoliki.build/Debug-iphonesimulator/KrestikiNoliki.build/Objects-normal/arm64/PlayerCard.d",
+    "diagnostics" : "/Users/medeupazylov/Desktop/KrestikiNoliki/build/KrestikiNoliki.build/Debug-iphonesimulator/KrestikiNoliki.build/Objects-normal/arm64/PlayerCard.dia",
+    "index-unit-output-path" : "/KrestikiNoliki.build/Debug-iphonesimulator/KrestikiNoliki.build/Objects-normal/arm64/PlayerCard.o",
+    "llvm-bc" : "/Users/medeupazylov/Desktop/KrestikiNoliki/build/KrestikiNoliki.build/Debug-iphonesimulator/KrestikiNoliki.build/Objects-normal/arm64/PlayerCard.bc",
+    "object" : "/Users/medeupazylov/Desktop/KrestikiNoliki/build/KrestikiNoliki.build/Debug-iphonesimulator/KrestikiNoliki.build/Objects-normal/arm64/PlayerCard.o",
+    "swift-dependencies" : "/Users/medeupazylov/Desktop/KrestikiNoliki/build/KrestikiNoliki.build/Debug-iphonesimulator/KrestikiNoliki.build/Objects-normal/arm64/PlayerCard.swiftdeps",
+    "swiftmodule" : "/Users/medeupazylov/Desktop/KrestikiNoliki/build/KrestikiNoliki.build/Debug-iphonesimulator/KrestikiNoliki.build/Objects-normal/arm64/PlayerCard~partial.swiftmodule"
+  }
+}

@@ -9,23 +9,33 @@
 /* Begin PBXBuildFile section */
 		DE8E9F0C2BC17FDE004BC207 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8E9F0B2BC17FDE004BC207 /* AppDelegate.swift */; };
 		DE8E9F0E2BC17FDE004BC207 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8E9F0D2BC17FDE004BC207 /* SceneDelegate.swift */; };
-		DE8E9F102BC17FDE004BC207 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8E9F0F2BC17FDE004BC207 /* ViewController.swift */; };
-		DE8E9F132BC17FDE004BC207 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE8E9F112BC17FDE004BC207 /* Main.storyboard */; };
+		DE8E9F102BC17FDE004BC207 /* MainMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8E9F0F2BC17FDE004BC207 /* MainMenuViewController.swift */; };
 		DE8E9F162BC17FDE004BC207 /* KrestikiNoliki.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DE8E9F142BC17FDE004BC207 /* KrestikiNoliki.xcdatamodeld */; };
 		DE8E9F182BC17FDF004BC207 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE8E9F172BC17FDF004BC207 /* Assets.xcassets */; };
 		DE8E9F1B2BC17FDF004BC207 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE8E9F192BC17FDF004BC207 /* LaunchScreen.storyboard */; };
+		DE8E9F232BC425F4004BC207 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8E9F222BC425F4004BC207 /* GameViewController.swift */; };
+		DE8E9F252BC42637004BC207 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8E9F242BC42637004BC207 /* Color.swift */; };
+		DE8E9F2A2BC556EC004BC207 /* GamePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8E9F292BC556EC004BC207 /* GamePresenter.swift */; };
+		DE8E9F2C2BC570E8004BC207 /* GameCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8E9F2B2BC570E8004BC207 /* GameCollectionViewCell.swift */; };
+		DE8E9F2E2BC5D5A1004BC207 /* GameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8E9F2D2BC5D5A1004BC207 /* GameModel.swift */; };
+		DE8E9F332BC71F8A004BC207 /* PlayerCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8E9F322BC71F8A004BC207 /* PlayerCard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		DE8E9F082BC17FDE004BC207 /* KrestikiNoliki.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KrestikiNoliki.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE8E9F0B2BC17FDE004BC207 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DE8E9F0D2BC17FDE004BC207 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		DE8E9F0F2BC17FDE004BC207 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		DE8E9F122BC17FDE004BC207 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DE8E9F0F2BC17FDE004BC207 /* MainMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuViewController.swift; sourceTree = "<group>"; };
 		DE8E9F152BC17FDE004BC207 /* KrestikiNoliki.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = KrestikiNoliki.xcdatamodel; sourceTree = "<group>"; };
 		DE8E9F172BC17FDF004BC207 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DE8E9F1A2BC17FDF004BC207 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DE8E9F1C2BC17FDF004BC207 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE8E9F222BC425F4004BC207 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		DE8E9F242BC42637004BC207 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		DE8E9F292BC556EC004BC207 /* GamePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamePresenter.swift; sourceTree = "<group>"; };
+		DE8E9F2B2BC570E8004BC207 /* GameCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameCollectionViewCell.swift; sourceTree = "<group>"; };
+		DE8E9F2D2BC5D5A1004BC207 /* GameModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameModel.swift; sourceTree = "<group>"; };
+		DE8E9F322BC71F8A004BC207 /* PlayerCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerCard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,16 +68,69 @@
 		DE8E9F0A2BC17FDE004BC207 /* KrestikiNoliki */ = {
 			isa = PBXGroup;
 			children = (
-				DE8E9F0B2BC17FDE004BC207 /* AppDelegate.swift */,
-				DE8E9F0D2BC17FDE004BC207 /* SceneDelegate.swift */,
-				DE8E9F0F2BC17FDE004BC207 /* ViewController.swift */,
-				DE8E9F112BC17FDE004BC207 /* Main.storyboard */,
-				DE8E9F172BC17FDF004BC207 /* Assets.xcassets */,
-				DE8E9F192BC17FDF004BC207 /* LaunchScreen.storyboard */,
+				DE8E9F312BC71F6F004BC207 /* UIComponents */,
+				DE8E9F262BC556A5004BC207 /* App */,
+				DE8E9F282BC556CB004BC207 /* Constants */,
+				DE8E9F2F2BC6C8BE004BC207 /* MainMenu */,
+				DE8E9F302BC6C96B004BC207 /* GameView */,
+				DE8E9F272BC556BC004BC207 /* Resources */,
 				DE8E9F1C2BC17FDF004BC207 /* Info.plist */,
-				DE8E9F142BC17FDE004BC207 /* KrestikiNoliki.xcdatamodeld */,
 			);
 			path = KrestikiNoliki;
+			sourceTree = "<group>";
+		};
+		DE8E9F262BC556A5004BC207 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				DE8E9F0B2BC17FDE004BC207 /* AppDelegate.swift */,
+				DE8E9F0D2BC17FDE004BC207 /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		DE8E9F272BC556BC004BC207 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DE8E9F142BC17FDE004BC207 /* KrestikiNoliki.xcdatamodeld */,
+				DE8E9F172BC17FDF004BC207 /* Assets.xcassets */,
+				DE8E9F192BC17FDF004BC207 /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		DE8E9F282BC556CB004BC207 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				DE8E9F242BC42637004BC207 /* Color.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		DE8E9F2F2BC6C8BE004BC207 /* MainMenu */ = {
+			isa = PBXGroup;
+			children = (
+				DE8E9F0F2BC17FDE004BC207 /* MainMenuViewController.swift */,
+			);
+			path = MainMenu;
+			sourceTree = "<group>";
+		};
+		DE8E9F302BC6C96B004BC207 /* GameView */ = {
+			isa = PBXGroup;
+			children = (
+				DE8E9F292BC556EC004BC207 /* GamePresenter.swift */,
+				DE8E9F222BC425F4004BC207 /* GameViewController.swift */,
+				DE8E9F2D2BC5D5A1004BC207 /* GameModel.swift */,
+			);
+			path = GameView;
+			sourceTree = "<group>";
+		};
+		DE8E9F312BC71F6F004BC207 /* UIComponents */ = {
+			isa = PBXGroup;
+			children = (
+				DE8E9F2B2BC570E8004BC207 /* GameCollectionViewCell.swift */,
+				DE8E9F322BC71F8A004BC207 /* PlayerCard.swift */,
+			);
+			path = UIComponents;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -130,7 +193,6 @@
 			files = (
 				DE8E9F1B2BC17FDF004BC207 /* LaunchScreen.storyboard in Resources */,
 				DE8E9F182BC17FDF004BC207 /* Assets.xcassets in Resources */,
-				DE8E9F132BC17FDE004BC207 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,24 +203,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DE8E9F102BC17FDE004BC207 /* ViewController.swift in Sources */,
+				DE8E9F332BC71F8A004BC207 /* PlayerCard.swift in Sources */,
+				DE8E9F2C2BC570E8004BC207 /* GameCollectionViewCell.swift in Sources */,
+				DE8E9F232BC425F4004BC207 /* GameViewController.swift in Sources */,
+				DE8E9F2E2BC5D5A1004BC207 /* GameModel.swift in Sources */,
+				DE8E9F102BC17FDE004BC207 /* MainMenuViewController.swift in Sources */,
 				DE8E9F0C2BC17FDE004BC207 /* AppDelegate.swift in Sources */,
 				DE8E9F0E2BC17FDE004BC207 /* SceneDelegate.swift in Sources */,
+				DE8E9F2A2BC556EC004BC207 /* GamePresenter.swift in Sources */,
 				DE8E9F162BC17FDE004BC207 /* KrestikiNoliki.xcdatamodeld in Sources */,
+				DE8E9F252BC42637004BC207 /* Color.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		DE8E9F112BC17FDE004BC207 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DE8E9F122BC17FDE004BC207 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		DE8E9F192BC17FDF004BC207 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -300,9 +360,8 @@
 				INFOPLIST_FILE = KrestikiNoliki/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -327,9 +386,8 @@
 				INFOPLIST_FILE = KrestikiNoliki/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

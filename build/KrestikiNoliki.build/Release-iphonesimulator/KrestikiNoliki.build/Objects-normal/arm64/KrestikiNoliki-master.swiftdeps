@@ -1,0 +1,13 @@
+version: "Apple Swift version 5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)"
+options: "b1c9e2d6c2a2a8fd9ddad75d0caad22b0249651b5996d6eb3b22d91467ee13dd"
+build_start_time: [1712662559, 454710000]
+build_end_time: [1712662560, 899532000]
+inputs:
+  "/Users/medeupazylov/Desktop/KrestikiNoliki/KrestikiNoliki/App/AppDelegate.swift": [1712408670, 633153372]
+  "/Users/medeupazylov/Desktop/KrestikiNoliki/KrestikiNoliki/App/SceneDelegate.swift": [1712575823, 119158727]
+  "/Users/medeupazylov/Desktop/KrestikiNoliki/KrestikiNoliki/Constants/Color.swift": [1712582643, 266322191]
+  "/Users/medeupazylov/Desktop/KrestikiNoliki/KrestikiNoliki/GamePresenter.swift": [1712660566, 66484714]
+  "/Users/medeupazylov/Desktop/KrestikiNoliki/KrestikiNoliki/GameViewController.swift": [1712662411, 826402452]
+  "/Users/medeupazylov/Desktop/KrestikiNoliki/KrestikiNoliki/MainMenuViewController.swift": [1712660520, 295056647]
+  ? "/Users/medeupazylov/Desktop/KrestikiNoliki/build/KrestikiNoliki.build/Release-iphonesimulator/KrestikiNoliki.build/DerivedSources/GeneratedAssetSymbols.swift"
+  : [1712662557, 846083674]
