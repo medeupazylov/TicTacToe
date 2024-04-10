@@ -61,16 +61,6 @@ final class GameViewController: UIViewController {
     ])
   }
 
-  @objc
-  private func restartGame() {
-    presenter.restartGame()
-  }
-
-  @objc
-  private func returnHome() {
-    dismiss(animated: true)
-  }
-
   private func setupNavigationBar() {
     let title = UILabel()
     title.text = "Крестики и Нолики"
@@ -84,6 +74,18 @@ final class GameViewController: UIViewController {
     navigationItem.rightBarButtonItem = home
     navigationItem.leftBarButtonItem = restart
   }
+
+  @objc
+  private func restartGame() {
+    presenter.restartGame()
+  }
+
+  @objc
+  private func returnHome() {
+    dismiss(animated: true)
+  }
+
+  // MARK: - UI Elements
 
   private lazy var collectionView: UICollectionView = {
     let layout = UICollectionViewFlowLayout()
@@ -126,15 +128,7 @@ final class GameViewController: UIViewController {
     return label
   } ()
 
-
-  func showWinner(player: Player, winningCombination: [Int]) {
-    var start = CGPoint(x: winningCombination[0]%3, y: winningCombination[0]/3)
-    var end = CGPoint(x: winningCombination[2]%3, y: winningCombination[2]/3)
-
-    drawWinningLines(start: start, end: end)
-  }
-
-  func drawWinningLines(start: CGPoint, end: CGPoint) {
+  private func drawWinningLines(start: CGPoint, end: CGPoint) {
     let vertical = collectionView.frame.height/3
     let horizontal = collectionView.frame.width/3
 
@@ -143,7 +137,7 @@ final class GameViewController: UIViewController {
     linePath.move(to: CGPoint(x: start.x*horizontal + horizontal/2, y: start.y*vertical + vertical/2))
     linePath.addLine(to: CGPoint(x: end.x*horizontal + horizontal/2, y: end.y*vertical + vertical/2))
     lineLayer.path = linePath.cgPath
-    lineLayer.strokeColor = UIColor.black.cgColor
+    lineLayer.strokeColor = Color.foregroundTitleColor.cgColor
     lineLayer.lineWidth = 20.0
     lineLayer.strokeEnd = 0.0
 
@@ -161,6 +155,37 @@ final class GameViewController: UIViewController {
 
 }
 
+// MARK: - GameViewProtocol
+
+extension GameViewController: GameViewProtocol {
+  func updateGrid(isGameEnd: Bool = false) {
+    if isGameEnd {
+      collectionView.layer.sublayers?.removeLast()
+    }
+    self.collectionView.reloadData()
+  }
+
+  func updateTurn(player: Player) {
+    switch player {
+    case .krestik:
+      leftPlayerCard.isEnabled = true
+      rightPlayerCard.isEnabled = false
+    case .nolik:
+      leftPlayerCard.isEnabled = false
+      rightPlayerCard.isEnabled = true
+    }
+  }
+
+  func showWinner(player: Player, winningCombination: [Int]) {
+    var start = CGPoint(x: winningCombination[0]%3, y: winningCombination[0]/3)
+    var end = CGPoint(x: winningCombination[2]%3, y: winningCombination[2]/3)
+
+    drawWinningLines(start: start, end: end)
+  }
+}
+
+// MARK: - UICollectionViewDelegateFlowLayout
+
 extension GameViewController: UICollectionViewDelegateFlowLayout {
 
   func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
@@ -172,6 +197,8 @@ extension GameViewController: UICollectionViewDelegateFlowLayout {
     return CGSize(width: width, height: width)
   }
 }
+
+// MARK: - UICollectionViewDataSource
 
 extension GameViewController: UICollectionViewDataSource {
   func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
@@ -190,22 +217,4 @@ extension GameViewController: UICollectionViewDataSource {
   }
 }
 
-extension GameViewController: GameViewProtocol {
-  func updateGrid(isRestart: Bool = false) {
-    if isRestart {
-      collectionView.layer.sublayers?.removeLast()
-    }
-    self.collectionView.reloadData()
-  }
 
-  func updateTurn(player: Player) {
-    switch player {
-    case .krestik:
-      leftPlayerCard.isEnabled = true
-      rightPlayerCard.isEnabled = false
-    case .nolik:
-      leftPlayerCard.isEnabled = false
-      rightPlayerCard.isEnabled = true
-    }
-  }
-}

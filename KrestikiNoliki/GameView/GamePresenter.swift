@@ -16,7 +16,7 @@ protocol GamePresenterProtocol {
 }
 
 protocol GameViewProtocol: NSObject {
-  func updateGrid(isRestart: Bool)
+  func updateGrid(isGameEnd: Bool)
 
   func updateTurn(player: Player)
 
@@ -43,16 +43,16 @@ final class GamePresenter: GamePresenterProtocol {
     model.grid[index] = model.turn
     model.turn = (model.turn == .krestik ? .nolik : .krestik)
     gameView?.updateTurn(player: model.turn)
-    gameView?.updateGrid(isRestart: false)
+    gameView?.updateGrid(isGameEnd: false)
     checkForWinner()
   }
 
   func restartGame() {
     model.turn = .krestik
-    model.isGameEnd = false
     model.grid = Array(repeating: nil, count: 9)
-    gameView?.updateGrid(isRestart: true)
+    gameView?.updateGrid(isGameEnd: model.isGameEnd)
     gameView?.updateTurn(player: model.turn)
+    model.isGameEnd = false
   }
 
   private func checkForWinner() {
